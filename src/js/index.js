@@ -1,6 +1,5 @@
-import { initPageRouter } from "./utils/pageCodeRouter.js";
-import { globalInit } from "./global/globalInit.js";
+import "./global/legacyIndex.js";
 
-globalInit();
-initPageRouter();
+// globalInit();
+// initPageRouter();
 console.log("Hello, Vite!");

@@ -6,7 +6,7 @@
   // update vars according to the project
   const srcProd = "https://XXX/prod-script.js";
   const srcStage = "https://XXX/stage-script.js";
-  const port = "3000";
+  const port = "3011";
 
   const body = document.getElementsByTagName("body")[0];
   const isWebflow = window.location.hostname.includes("webflow.io");
