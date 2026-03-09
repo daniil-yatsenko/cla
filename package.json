@@ -1,0 +1,14 @@
+{
+  "name": "vite-base",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite src --port 3000",
+    "build": "vite build src",
+    "preview": "vite preview --port 3000"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}
